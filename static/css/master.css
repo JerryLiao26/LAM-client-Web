@@ -22,6 +22,10 @@
   overflow: hidden;
 }
 
+.message_card {
+  margin-top: 15px;
+}
+
 .welcome_container > button {
   margin-top: 25px;
 

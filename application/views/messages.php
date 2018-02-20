@@ -1,6 +1,6 @@
 <div class="container">
   <?php foreach ($messages as $item):?>
-    <div class="card">
+    <div class="card message_card">
       <div class="card-header">
         <?php echo $item['tag'] ?>
       </div>

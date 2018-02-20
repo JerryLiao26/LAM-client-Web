@@ -20,7 +20,7 @@ class Message extends CI_Controller {
 		$res = $this->load->database($conf);
 		// Connect successful
 		if ($res) {
-      $db_res = $this->db->query('SELECT * FROM message');
+      $db_res = $this->db->query('SELECT * FROM message ORDER BY timestamp DESC');
       if ($db_res) {
         $data = array();
         $data['title'] = 'Messages';
